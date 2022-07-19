@@ -1,15 +1,20 @@
 {
   "name": "lit-element-starter-with-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lit element starter template, using webpack",
   "main": "index.js",
   "scripts": {
     "build": "webpack -c webpack.config.prod.js",
     "dev": "webpack serve --config webpack.config.dev.js --progress --profile --watch"
   },
-  "keywords": [],
-  "author": "Gourav Khator",
-  "license": "ISC",
+  "keywords": [
+    "lit-element",
+    "webpack",
+    "starter-template"
+  ],
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
@@ -28,7 +33,6 @@
     "webpack-dev-server": "^3.11.1",
     "webpack-merge": "^5.7.3"
   },
-  "dependencies": {
-    "lit-element": "^2.4.0"
-  }
+  "author": "Gourav Khator",
+  "license": "Apache-2.0"
 }
